@@ -20,9 +20,10 @@ The plugin takes as input a XES file (event log). For our tests we used the log 
 - The first step to start with after running the plugin is to indicate the connection parameters to the database.
 In this project Mysql is used. 
 - Import the log file into the database. For this step you can use the plugin to import the data into the database. However, given the size of the log, the importation process may take a time. To do it faster, we provide the dump file of the database.
-U need just to create a database with a given name and import the dump file. Further we provide an sql script to create the views to be used later to interogate the database. 
+U need just to create a database with a given name and import the dump file. Further we provide an sql script to create the views to be used later to interogate the database (in the sql script the database name is financial, in case you named it differently, change it the the script with the used name). 
 - Once the database is ready, you can start use the plugin to investigate the resource behaviour. 
 - For each behaviour type a csv file is generated with all the required information. 
+- In its current version the plugin allows to work with log files using the following transcation types: START, SCHEDULE and COMPLETE. 
 
 
 
