@@ -22,16 +22,16 @@ public class ParamInputConection extends JDialog {
 		jLabel1.setForeground(new java.awt.Color(255, 51, 102));
 
 		final JLabel jLabel2 = new JLabel("Host Name");
-		final ProMTextField hostname = new ProMTextField("127.0.0.1:3306");
+		final ProMTextField hostname = new ProMTextField("localhost");
 
 		final JLabel jLabel3 = new JLabel("UserName");
-		final ProMTextField username = new ProMTextField("user");
+		final ProMTextField username = new ProMTextField("indicate user");
 
 		final JLabel jLabel4 = new JLabel("Password");
-		final ProMTextField password = new ProMTextField("user");
+		final ProMTextField password = new ProMTextField("**********");
 
 		final JLabel jLabel5 = new JLabel("DbName");
-		final ProMTextField dbName = new ProMTextField("financial");
+		final ProMTextField dbName = new ProMTextField("database Name ");
 
 		final SlickerButton jButton1 = new SlickerButton();
 		jButton1.setText("Ok");
